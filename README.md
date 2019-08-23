@@ -12,3 +12,23 @@ achieves consistently better visual quality with more realistic and natural text
 ## RESULTS:
 ![result1](https://github.com/shauryabit2k18/super-resolution/blob/master/figures/RESULT1.png)
 ![result2](https://github.com/shauryabit2k18/super-resolution/blob/master/figures/baboon.jpg)
+
+## Quick Test
+#### Dependencies
+- Python 3
+- [PyTorch >= 1.0](https://pytorch.org/) (CUDA version >= 7.5 if installing with CUDA. [More details](https://pytorch.org/get-started/previous-versions/))
+- Python packages:  `pip install numpy opencv-python`
+
+### Test models
+1. Clone this github repo. 
+```
+git clone https://github.com/shauryabit2k18/super-resolution.git
+cd super-resolution
+```
+2. Place your own **low-resolution images** in a new folder named as `./LR` folder.
+3. Create a new folder named as 'results' in the master.
+4. Run test.
+```
+python test.py
+```
+5. The results will be in a folder named `./results` folder.
